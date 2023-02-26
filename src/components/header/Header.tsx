@@ -16,6 +16,12 @@ export const Header: FC = () => {
                     >
                         conduit
                     </Link>
+
+                    <ul className="pl-0 mb-0 list-none flex">
+                        <li>
+                            <Link to={'/'}>Home</Link>
+                        </li>
+                    </ul>
                 </div>
             </nav>
         </header>
